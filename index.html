@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8169966ddf.js" crossorigin="anonymous"></script>
+    <title>Checkout Page</title>
+</head>
+<body>
+    <h1>Checkout Form</h1>
+        <div id="div1">
+            <h2>Personal Details</h2>
+            <form>
+                <label><b>Full Name</b></label><br>
+                <input type="text" placeholder="e.g John" required><br><br>
+                <label><b>Email</b></label><br>
+                <input type="email" placeholder="e.g john.12345@gmail.com" required><br><br>
+                <label><b>Phone Number</b></label><br>
+                <input type="number" placeholder="e.g 7564279313" required><br><br>
+                <label><b>Address</b></label><br>
+                <input type="text" placeholder="e.g House 79 Urban Group Northolt" required><br><br>
+                <label><b>Date of Birth</b></label><br>
+                <input type="date" required>
+            </form>
+        </div>
+             <div id="div2">
+            <h2>Payment</h2>
+            <p>Accepted Cards</p>
+                <img src="https://images.ctfassets.net/ro61k101ee59/2LUPwc8SbNVbyyTrnFGIvR/ab5f11420dbd96b761a808b3ae105b7e/hot_coral_comparison-1.png" width="30" height="20">
+                <img src="https://heyneo.ch/wp-content/uploads/2023/10/Carte-Revolut-Suisse-gros-plan-1024x649.jpeg" width="30" height="20">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.NM2-6VzclIB6dldkdyPuDwHaFj" width="30" height="20">
+                <img src="https://ecm.capitalone.com/ProductBranding/cc/167/1228/cardart_prim_1290x812.png?w=1290" width="30" height="20">
+            <br>
+            <form>
+                <label><b>Card Number</b></label><br>
+                <input type="number" placeholder="0000-0000-0000-0000" required><br><br>
+                <label>Exp Date</label><br>
+                <input type="date" required><br><br>
+                <label>CVC</label><br>
+                <input type="number" placeholder="000" required>
+            </form>
+        </div>
+        <div id="div3">
+            <h2>Cost</h2>
+            <h3><b>One Adult: $500</b></h3>
+            <h3><b>One Child: $350</b></h3>
+            <h3><b>One Family: $700</b></h3>
+        </div>
+        <div id="div4">
+            <h2>Number Of Travellers</h2>
+            <h3><b>Children: <span id="child">0</span></b></h3>
+            <h3><b>Adults: <span id="adult">0</span></b></h3>
+            <button onclick="addchild()">Add Child</button>
+            <button onclick="addadult()">Add Adult</button>
+        </div>
+           <div>
+            <a href="ty.html">
+            <button>CHECKOUT</button>
+            </a>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

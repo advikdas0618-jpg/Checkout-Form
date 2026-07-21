@@ -1,0 +1,54 @@
+h1{
+    text-align:center;
+    color:red;
+}
+h2{
+    color:blue;
+}
+#div2{
+    position:relative;
+    left:1200px;
+    bottom:340px;
+}
+#div3{
+    position:relative;
+    left:650px;
+    bottom:620px;
+}
+#div1{
+    position:relative;
+    left:100px;
+}
+#div4{
+    position:relative;
+    left:100px;
+    bottom:400px;
+}
+#button1{
+    position:relative;
+    left:500px;
+    bottom:600px;
+    width:750px;
+    height:50px;
+    color:green;
+    background-color:lightblue;
+    border:1px solid lightpink;
+}
+body{
+    background:linear-gradient(lightblue, lightgreen, lightpink, coral);
+}
+label{
+    color:green;
+    background-color:lightgray;
+}
+h3{
+    color:purple;
+}
+button{
+    color:darkorange;
+    background-color:aqua;
+    border:1px solid aquamarine;
+}
+button::selection{
+    background-color:cornsilk;
+}
